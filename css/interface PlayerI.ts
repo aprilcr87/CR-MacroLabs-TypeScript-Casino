@@ -1,4 +1,4 @@
-interface IPlayer{
+interface PlayerI {
     profileId : string;
     userName : string;
     balance? : number;
