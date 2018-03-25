@@ -1,9 +1,20 @@
-{
-        "compilerOptions": {
-           "sourceMap": true,
-            "target": "es5",
-            "outFile": "../js/main.js",
-            "module": "commonjs",
-            "watch": true
-        }
-    }
+{   
+    "compileOnSave": true,
+    "compilerOptions": {
+        "module": "system",
+        "noImplicitAny": true,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "outFile": "./js/app.js",
+        "sourceMap": true,
+        "target": "es5",
+        "watch": true
+    },
+    "include": [
+        "./**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "**/*.spec.ts"
+    ]
+}
